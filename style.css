@@ -1,0 +1,26 @@
+div{
+    display: flex;
+}
+body{
+    background-color: rgb(145, 145, 148);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    justify-content: space-between;
+    top: 0px;
+    background-color: antiquewhite;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 20px;
+    align-items: right;
+    position: sticky;
+    justify-content: space-between;
+    justify-content: center;
+    list-style-type: none;
+}
